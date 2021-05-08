@@ -1,5 +1,5 @@
 
-// Application Of DLL for converting Decimal to binary
+// Application Of DLL for converting Decimal to binary c program
 
 #include <stdio.h>
 #include <stdlib.h>
