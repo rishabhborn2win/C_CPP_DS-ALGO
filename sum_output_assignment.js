@@ -1,6 +1,6 @@
 
-var a1 = [-22,7,-89].reverse();
-var a2 = [-22,7,-89].reverse();
+var a1 = [5,-17,9].reverse();
+var a2 = [-11,2,3,4].reverse();
 var output=[], carry=0;
 // var arrString1 = prompt("Enter the array 1 (For e.g [1,2,3,4] So enter 1,2,3,4): ");
 // var arrString2 = prompt("Enter the array 2 (For e.g [1,2,3,4] So enter 1,2,3,4): ");
@@ -43,6 +43,7 @@ while(carry > 0){
     output.unshift(carry%10);
     carry = Math.floor(carry/10);
 }
+//if the carry is negative left
 while(carry < 0){
     output.unshift(carry%10);
     carry = Math.ceil(carry/10);
